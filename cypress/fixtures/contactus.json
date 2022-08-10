@@ -1,0 +1,29 @@
+[
+    {
+        "firstName":"akshay",
+        "lastName": "kshirsagar",
+        "email": "akshay@cypress.io",
+        "message": "i wnt to learn cypress"
+    },
+    {
+        "firstName":"chinmay2",
+        "lastName": "deshpande2",
+        "email": "hello2@cypress.io",
+        "message": "Fixtures are a great way to mock data for responses to routes2"
+
+    },
+    {
+        "firstName":"akjay",
+        "lastName": "sagar",
+        "email": "akjay@cypress.io",
+        "message": "i wnt to learn cypress"
+    },
+    {
+        "firstName":"amar",
+        "lastName": "pande2",
+        "email": "hello2@cypress.io",
+        "message": "Fixtures are a great way to mock data for responses to routes2"
+
+    }
+]
+  

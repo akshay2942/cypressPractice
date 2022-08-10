@@ -1,0 +1,23 @@
+[
+    {
+        "firstname": "Rasika",
+        "lastname": "kulkarni",
+        "email": "rasikakulkarni@gmail.com",
+        "message": "new to js concept"
+    },
+
+    {
+        "firstname": "anand",
+        "lastname": "rao",
+        "email": "anandrao0@gmail.com",
+        "message": "want to be developer"
+
+    },
+    {
+        "firstname": "akshay",
+        "lastname": "kshirsagar",
+        "email": "akshaykshirsagar47@gmail.com",
+        "message": "let see fixture data0"
+
+    }
+]
