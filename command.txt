@@ -1,0 +1,4 @@
+npx cypress run --spec "cypress\e2e\envVar\envVar.cy.js" 
+--headed 
+--config-file production-config.js 
+--env ENV ="staging" 
