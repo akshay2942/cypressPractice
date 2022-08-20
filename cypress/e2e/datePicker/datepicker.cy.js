@@ -38,6 +38,11 @@ describe('select date from date picker', () => {
                     selectMonthAndDate()
                 }
             })
+            cy.get('.datepicker-switch').first().then(function (el) {
+                if () {
+
+                }
+            })
 
         }
 
