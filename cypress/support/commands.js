@@ -24,7 +24,17 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+
+Cypress.Commands.add('Hrmlogin', (url,username, passward) => {
+    cy.visit(url)
+    cy.get('[name="username"]').type(username)
+    
+    cy.get('[name="password"]').type(passward)
+    cy.get('.oxd-button').click()
+
+})
 Cypress.Commands.add('login', (url, username, passward) => {
+    [name = "username"]
     cy.visit(url)
     cy.get('#user-name').type(username)
     cy.get('#password').type(passward)
@@ -36,5 +46,4 @@ Cypress.Commands.add('form', (firstname, lastname, email, comments) => {
     cy.get('[name="last_name"]').type(lastname)
     cy.get('[name="email"]').type(email)
     cy.get('[name="message"]').type(comments)
-
 })
