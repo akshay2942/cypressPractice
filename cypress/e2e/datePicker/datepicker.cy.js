@@ -39,9 +39,9 @@ describe('select date from date picker', () => {
                 }
             })
             cy.get('.datepicker-switch').first().then(function (el) {
-                if () {
-
-                }
+               if(!el.text().includes((smonth)){
+                
+               }
             })
 
         }
